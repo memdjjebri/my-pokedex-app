@@ -9,10 +9,10 @@ const pokemonList = [
     },
 ];
 
-function PokemonCard(props) {
-    console.log(props);
+function PokemonCard({ pokemon }) {
+    console.log(pokemon)
 
-    const pokemon = pokemonList[0];
+
 
     return (
         <div className="pokemon-card">
